@@ -27,8 +27,6 @@ main_test.go
 
 [CODE][Changed]
 
-   jsonpath "github.com/steinfletcher/apitest-jsonpath"
-
    apitest.New().
    
 	//..
@@ -81,7 +79,9 @@ show in screen
 
 === RUN   Test_bookmarkIndex
 
-Created sequence diagram (3157381659_2166136261.html): D:\@COURSES\GO\@GO_API\golang_api_test_apitest\apitest_test\.sequence\3157381659_2166136261.html
+Created sequence diagram (3157381659_2166136261.html): 
+
+...\apitest_test\.sequence\3157381659_2166136261.html
 
 --- PASS: Test_bookmarkIndex (0.01s)
 
@@ -89,11 +89,15 @@ Created sequence diagram (3157381659_2166136261.html): D:\@COURSES\GO\@GO_API\go
 
 === RUN   Test_bookmarkFind/not_found
 
-Created sequence diagram (1543772695_2166136261.html): D:\@COURSES\GO\@GO_API\golang_api_test_apitest\apitest_test\.sequence\1543772695_2166136261.html
+Created sequence diagram (1543772695_2166136261.html): 
+
+...\apitest_test\.sequence\1543772695_2166136261.html
 
 === RUN   Test_bookmarkFind/found
 
-Created sequence diagram (1560550314_2166136261.html): D:\@COURSES\GO\@GO_API\golang_api_test_apitest\apitest_test\.sequence\1560550314_2166136261.html
+Created sequence diagram (1560550314_2166136261.html): 
+
+...\apitest_test\.sequence\1560550314_2166136261.html
 
 --- PASS: Test_bookmarkFind (0.03s)
 
@@ -103,7 +107,7 @@ Created sequence diagram (1560550314_2166136261.html): D:\@COURSES\GO\@GO_API\go
 
 PASS
 
-ok      github.com/eminetto/post-apitest        0.963s
+ok      .../post-apitest        0.963s
 
 CONCLUSION :
 
@@ -113,7 +117,17 @@ CONCLUSION :
 
    MAYBE NO big is the difference compared to the standard library
 
+Don't forget to watch the directory :
 
+apitest_test\.sequence
+
+with the reports generated
+
+GET /v1/bookmark/1
+
+GET /v1/bookmark/2
+
+GET /v1/bookmark
 
 
 
