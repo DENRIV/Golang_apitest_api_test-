@@ -19,7 +19,7 @@ go get github.com/steinfletcher/apitest-jsonpath
 
 go run main.go
 
-  localhost:8080 
+  localhost:8081
   
 Similar to last main_test.go, using apitest :
 
@@ -128,6 +128,14 @@ GET /v1/bookmark/1
 GET /v1/bookmark/2
 
 GET /v1/bookmark
+
+[browser]
+
+http://localhost:8081/v1/bookmark/1
+
+http://localhost:8081/v1/bookmark/2
+
+http://localhost:8081/v1/bookmark
 
 
 
